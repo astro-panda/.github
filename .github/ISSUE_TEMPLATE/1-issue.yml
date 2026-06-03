@@ -1,5 +1,5 @@
-name: Issue
-description:
+name: Story
+description: A story is an issue that describes a new feature or enhancement to the software. It should include a detailed description of the issue, acceptance criteria, and any relevant contacts.
 type: Story
 body:
   - type: textarea

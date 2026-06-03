@@ -3,21 +3,21 @@ description: A bug is an issue that describes a problem with the software. It sh
 labels: bug
 type: Bug
 body:
-  - type: input
+  - type: textarea
     id: steps-to-reproduce
     attributes:
       label: Steps to Reproduce
       description: Please provide a step-by-step description of how to reproduce the issue.
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: expected-behavior
     attributes:
       label: Expected Behavior
       description: Please describe what you expected to happen.
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: actual-behavior
     attributes:
       label: Actual Behavior

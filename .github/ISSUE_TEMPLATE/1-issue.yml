@@ -1,0 +1,20 @@
+name: Issue
+description:
+type: Story
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please provide a detailed description of the issue.
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Please provide a list of criteria that must be met for this issue to be considered complete.
+  - type: input
+    id: contacts
+    attributes:
+      label: Contacts
+      description: Please provide the names and contact information of any relevant stakeholders or team members who should be involved in addressing this issue.
+  

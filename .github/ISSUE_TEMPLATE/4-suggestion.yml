@@ -1,0 +1,14 @@
+name: Suggestion
+description: A feature request
+type: Suggestion
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please outline what you are wanting to see happen
+  - type: textarea
+    id: userrole
+    attributes:
+      label: User Role
+      description: What type of person would be using this? Who needs it and why is it valuable?

@@ -4,24 +4,20 @@ labels: bug
 type: Bug
 body:
   - type: textarea
-    id: steps-to-reproduce
+    id: actual-behavior
     attributes:
-      label: Steps to Reproduce
-      description: Please provide a step-by-step description of how to reproduce the issue.
-    validations:
-      required: true
+      label: Actual Behavior
+      description: Please describe what actually happened.
   - type: textarea
     id: expected-behavior
     attributes:
       label: Expected Behavior
       description: Please describe what you expected to happen.
-    validations:
-      required: true
   - type: textarea
-    id: actual-behavior
+    id: steps-to-reproduce
     attributes:
-      label: Actual Behavior
-      description: Please describe what actually happened.
+      label: Steps to Reproduce
+      description: Please provide a step-by-step description of how to reproduce the issue.
     validations:
       required: true
   - type: textarea

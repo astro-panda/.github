@@ -1,0 +1,9 @@
+name: Epic
+type: Epic
+description: A large chunk of deliverable functionality
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What value would this Epic provide once delivered

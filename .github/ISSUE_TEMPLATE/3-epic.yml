@@ -1,6 +1,8 @@
 name: Epic
 type: Epic
 description: A large chunk of deliverable functionality
+projects: 
+  - astro-panda/20
 body:
   - type: textarea
     id: description

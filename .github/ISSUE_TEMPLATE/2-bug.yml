@@ -2,6 +2,8 @@ name: Bug
 description: A bug is an issue that describes a problem with the software. It should include steps to reproduce the issue, expected behavior, and actual behavior.
 labels: bug
 type: Bug
+projects: 
+  - astro-panda/20
 body:
   - type: textarea
     id: actual-behavior

@@ -1,6 +1,8 @@
 name: Suggestion
 description: A feature request
 type: Suggestion
+projects: 
+  - astro-panda/20
 body:
   - type: textarea
     id: description
